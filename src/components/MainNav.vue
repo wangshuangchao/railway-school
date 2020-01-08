@@ -217,5 +217,6 @@
 	
 	.mouseover {
 		background-color: #0000FF;
+		cursor:pointer;
 	}
 </style>

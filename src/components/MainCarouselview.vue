@@ -1,11 +1,11 @@
 <template>
-	<div id="main-carousel-view" @mouseover="autoplay = false" @mouseout="autoplay = true" >
-		<Carousel v-model="value1" loop :autoplay="autoplay" dots="inside" radius-dot>
+	<div id="main-carousel-view" @mouseover="autoplay = false" @mouseout="autoplay = false" >
+		<Carousel v-model="value1" loop :autoplay="autoplay" dots="inside" radius-dot arrow="never">
 			<CarouselItem>
 				<!-- <div class="demo-carousel">1</div> -->
 				<div class="demo-carousel"><img src="../assets/images/home/carousel/1.png" alt=""></div>
 			</CarouselItem>
-			<CarouselItem>
+			<!-- <CarouselItem>
 				<div class="demo-carousel"><img src="../assets/images/home/carousel/2.png" alt=""></div>
 			</CarouselItem>
 			<CarouselItem>
@@ -13,7 +13,7 @@
 			</CarouselItem>
 			<CarouselItem>
 				<div class="demo-carousel"><img src="../assets/images/home/carousel/4.png" alt=""></div>
-			</CarouselItem>
+			</CarouselItem> -->
 		</Carousel>
 	</div>
 </template>
@@ -22,7 +22,7 @@
 		data() {
 			return {
 				value1: 0,
-				autoplay: true
+				autoplay: false
 			}
 		}
 	}

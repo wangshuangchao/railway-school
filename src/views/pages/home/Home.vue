@@ -1,10 +1,9 @@
 <template>
 	<div>
-		<!-- 首页 -->
+		<!-- 轮播图 -->
 		<MainCarouselview></MainCarouselview>
-		<!-- <MainCarousel></MainCarousel> -->
+		<!-- 其他内容 -->
 		<SchoolProfile></SchoolProfile>
-		<!-- <SchoolProfileIview></SchoolProfileIview> -->
 	</div>
 </template>
 
