@@ -9,6 +9,8 @@ import ClassroomSetup from "../views/pages/schoolProfile/ClassroomSetup.vue"
 // 招生就业
 import StudentBrochure from "../views/pages/enrollmentEmployment/StudentBrochure.vue"
 import EmploymentSecurity from "../views/pages/enrollmentEmployment/EmploymentSecurity.vue"
+import EmploymentSecurityChild from "../views/pages/enrollmentEmployment/EmploymentSecurityChild.vue"
+import StudentBrochureChild from "../views/pages/enrollmentEmployment/StudentBrochureChild.vue"
 // 学院风采
 import AcademyStyle from "../views/pages/academyStyle/AcademyStyle.vue"
 // 新闻公告
@@ -20,63 +22,90 @@ import ContactUs from "../views/pages/contactUs/ContactUs.vue"
 
 Vue.use(VueRouter)
 
-const routes = [
-  {
-	  path: "/",
-	  redirect: "/home"
-  },
-  {
-	  path: "/home",
-	  component: Home
-  },
-  {
-	  path: "/schIntroduction",
-	  component: SchIntroduction
-  },
-  {
-	  path: "/classroomSetup",
-	  component: ClassroomSetup
-  },
-  {
-	  path: "/studentBrochure",
-	  component: StudentBrochure
-  },
-  {
-	  path: "/employmentSecurity",
-	  component: EmploymentSecurity
-  },
-  {
-	  path: "/academyStyle",
-	  component: AcademyStyle
-  },
-  {
-	  path: "/newsBulletin",
-	  component: NewsBulletin,
-	  children: [
-		  {
-			  path: "",
-			  redirect: "schDynamic"
-		  },
-		  {
-			  path: "schDynamic",
-			  component: SchDynamic
-		  },
-		  {
-			  path: "schNews",
-			  component: SchNews
-		  }
-	  ]
-  },
-  {
-	  path: "/ContactUs",
-	  component: ContactUs
-  }
+const routes = [{
+		path: "/",
+		redirect: "/home"
+	},
+	{
+		path: "/home",
+		component: Home
+	},
+	{
+		path: "/schIntroduction",
+		component: SchIntroduction
+	},
+	{
+		path: "/classroomSetup",
+		component: ClassroomSetup
+	},
+	{
+		path: "/studentBrochure",
+		component: StudentBrochure,
+		children: [
+			{
+				path: "",
+				redirect: "studentBrochureChild"
+			},
+			{
+				path: "studentBrochureChild",
+				component: StudentBrochureChild
+			},
+			{
+				path: "employmentSecurityChild",
+				component: EmploymentSecurityChild
+			}
+		]
+	},
+	{
+		path: "/employmentSecurity",
+		component: EmploymentSecurity,
+		children: [
+			{
+				path: "",
+				redirect: "employmentSecurityChild"
+			},
+			{
+				path: "studentBrochureChild",
+				component: StudentBrochureChild
+			},
+			{
+				path: "employmentSecurityChild",
+				component: EmploymentSecurityChild
+			}
+		]
+		
+	},
+	{
+		path: "/academyStyle",
+		component: AcademyStyle
+	},
+	{
+		path: "/newsBulletin",
+		component: NewsBulletin,
+		children: [{
+				path: "",
+				redirect: "schDynamic"
+			},
+			{
+				path: "schDynamic",
+				component: SchDynamic
+			},
+			{
+				path: "schNews",
+				component: SchNews
+			}
+		]
+	},
+	{
+		path: "/ContactUs",
+		component: ContactUs
+	}
 ]
 
 const router = new VueRouter({
-  mode: 'history',
-  base: process.env.BASE_URL,
-  routes
+	mode: 'history',
+	base: process.env.BASE_URL,
+	routes
 })
 
 export default router

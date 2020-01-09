@@ -3,14 +3,14 @@
 		<div><img src="../../../assets/images/newsBulletin/0.png" alt="" style="width: 100%;"></div>
 		<div style="width: 1200px;margin: 0 auto;display: flex;color: #FFFFFF;margin-top: 30px;margin-bottom: 30px;font-size: 18px;">
 			<div style="flex: 1;text-align: right;margin-right: 20px;">
-				<button style="width: 120px;height: 50px;border-radius:8px;border:none;outline:0;cursor: pointer;"
+				<button style="color: #FFFFFF;width: 120px;height: 50px;border-radius:8px;border:none;outline:0;cursor: pointer;"
 					:class="{btnAction: btnAction1, btnUnAction: btnAction2}"
 					@click="btnActionA">
 					学校动态
 				</button>
 			</div>
 			<div style="flex: 1;text-align: left;margin-left: 20px;">
-				<button style="width: 120px;height: 50px;border-radius:8px;border:none;outline:0;cursor: pointer;"
+				<button style="color: #FFFFFF;width: 120px;height: 50px;border-radius:8px;border:none;outline:0;cursor: pointer;"
 					:class="{btnAction: btnAction2, btnUnAction: btnAction1}"
 					@click="btnActionB">
 					学校新闻

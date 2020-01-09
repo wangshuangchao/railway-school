@@ -1,10 +1,12 @@
 <template>
 	<div id="main-title">
-		<div id="logo">
-			logo
+		<div id="logo" style="margin-top: 15px;">
+			<img src="../assets/images/title/0.png" alt=""
+			style="width: 600px;">
 		</div>
 		<div id="cellphone">
-			热线：1234567
+			<span style="color: #1A49DB;font-size: 16px;">咨询热线</span>
+			<span style="color: #1A49DB;font-size: 30px;">400-7899-000</span>
 		</div>
 	</div>
 </template>
@@ -27,23 +29,23 @@
 		left: 0px;
 	}
 	#logo {
-		width: 100px;
+		/* width: 100px; */
 		height: 30px;
 		line-height: 30px;
 		background-color: #0000FF;
 		color: red;
 		display: inline-block;
-		margin-left: 250px;
+		margin-left: 150px;
 	}
 	#cellphone {
-		width: 100px;
+		/* width: 100px; */
 		height: 30px;
 		line-height: 30px;
-		background-color: #0000FF;
+		/* background-color: #0000FF; */
 		color: red;
 		display: inline-block;
 		float: right;
-		margin-right: 300px;
+		margin-right: 100px;
 		margin-top: 30px;
 	}
 </style>

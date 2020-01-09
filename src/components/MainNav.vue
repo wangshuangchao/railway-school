@@ -13,7 +13,9 @@
 				<Icon type="ios-arrow-down" v-if="!open1" />
 				<Icon type="ios-arrow-up" v-if="open1" />
 				<DropdownMenu slot="list">
-					<DropdownItem><p @click="selecteda(introduce)">学校介绍</p></DropdownItem>
+					<DropdownItem :class="hover">
+						<p @click="selecteda(introduce)">学校介绍</p>
+					</DropdownItem>
 					<DropdownItem><p @click="selecteda(setup)">课程设置</p></DropdownItem>
 				</DropdownMenu>
 			</Dropdown>
@@ -218,5 +220,9 @@
 	.mouseover {
 		background-color: #0000FF;
 		cursor:pointer;
+	}
+	
+	.hover {
+		background-color: #d2dcf8;
 	}
 </style>
