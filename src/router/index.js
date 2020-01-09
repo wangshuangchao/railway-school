@@ -13,6 +13,8 @@ import EmploymentSecurity from "../views/pages/enrollmentEmployment/EmploymentSe
 import AcademyStyle from "../views/pages/academyStyle/AcademyStyle.vue"
 // 新闻公告
 import NewsBulletin from "../views/pages/newsBulletin/NewsBulletin.vue"
+import SchDynamic from "../views/pages/newsBulletin/SchDynamic.vue"
+import SchNews from "../views/pages/newsBulletin/SchNews.vue"
 // 联系我们
 import ContactUs from "../views/pages/contactUs/ContactUs.vue"
 
@@ -49,7 +51,21 @@ const routes = [
   },
   {
 	  path: "/newsBulletin",
-	  component: NewsBulletin
+	  component: NewsBulletin,
+	  children: [
+		  {
+			  path: "",
+			  redirect: "schDynamic"
+		  },
+		  {
+			  path: "schDynamic",
+			  component: SchDynamic
+		  },
+		  {
+			  path: "schNews",
+			  component: SchNews
+		  }
+	  ]
   },
   {
 	  path: "/ContactUs",

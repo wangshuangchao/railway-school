@@ -14,13 +14,13 @@
 				</div>
 				<div class="buttomitem2">
 					<div style="margin: 0 auto;width: 67px;margin-top: 30px;">
-						<ul style="list-style-type:none;font-size: 16px;color: #FFFFFF;line-height: 30px;">
-							<li>首页</li>
-							<li>学校概况</li>
-							<li>招生就业</li>
-							<li>学员风采</li>
-							<li>新闻公告</li>
-							<li>联系我们</li>
+						<ul style="list-style-type:none;font-size: 16px;color: #FFFFFF;line-height: 30px;cursor:pointer">
+							<li @click="buttomTo1">首页</li>
+							<li @click="buttomTo2">学校概况</li>
+							<li @click="buttomTo3">招生就业</li>
+							<li @click="buttomTo4">学员风采</li>
+							<li @click="buttomTo5">新闻公告</li>
+							<li @click="buttomTo6">联系我们</li>
 						</ul>
 					</div>
 				</div>
@@ -48,6 +48,34 @@
 </template>
 
 <script>
+	export default {
+		methods: {
+			buttomTo1() {
+				this.$store.commit('home')
+				this.$router.replace("/home")
+			},
+			buttomTo2() {
+				this.$store.commit('survey')
+				this.$router.replace("/schIntroduction")
+			},
+			buttomTo3() {
+				this.$store.commit('students')
+				this.$router.replace("/studentBrochure")
+			},
+			buttomTo4() {
+				this.$store.commit('demeanour')
+				this.$router.replace("/academyStyle")
+			},
+			buttomTo5() {
+				this.$store.commit('news')
+				this.$router.replace("/newsBulletin")
+			},
+			buttomTo6() {
+				this.$store.commit('contact')
+				this.$router.replace("/ContactUs")
+			}
+		}
+	}
 </script>
 
 <style>
