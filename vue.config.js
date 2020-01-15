@@ -14,7 +14,9 @@ module.exports = {
 	devServer: {
 		open: true,
 		port: 80
-	}
+	},
+	
+	publicPath: process.env.NODE_ENV === "production" ? "/railway-school" : "/"
 
 
 }
