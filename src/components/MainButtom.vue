@@ -7,9 +7,9 @@
 						<p>LOGO</p>
 					</div>
 					<ul style="list-style-type:none;margin-top: 30px;font-size: 14px;color: #FFFFFF;line-height: 30px;">
-						<li>学院网址：http://www.sjzjjxy.com</li>
-						<li>资讯热线：4007899000</li>
-						<li>公司地址：河北省石家庄市高新区黄河大道 136 号 2 号楼 5 层</li>
+						<li>学院网址：http://www.dftlhk.com</li>
+						<li>资讯热线：0311-68092339</li>
+						<li>公司地址：石家庄桥西区三简路16号</li>
 					</ul>
 				</div>
 				<div class="buttomitem2">
@@ -30,7 +30,7 @@
 					</div>
 					<div style="width: 130px; float: right;margin-top: 180px;margin-right: -115px;">
 						<p style="font-size: 12px;color: #FFFFFF;">
-							扫一扫关注微信号
+							扫一扫关注微信公众号
 						</p>
 					</div>
 				</div>

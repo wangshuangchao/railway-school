@@ -5,13 +5,14 @@
 		<div class="horizontal-row">
 			<div><img src="../../../assets/images/home/5.png" alt=""></div>
 			<div>
+				<h1>一、学校简介：</h1>
 				<div style="height: 250px;margin-top: 20px;text-indent:2em;color: #666666;font-size: 16px;">
 					<p>
-					学校前身是创建于1934年的国立西北农林专科学校。1999年9月，经国务院批准，由原西北农业大学、西北林学院、中国科学院水利部水土保持研究所、水利部西北水利科学研究所、陕西省农业科学院、陕西省林业科学院、陕西省中国科学院西北植物研究所等7所科教单位合并组建为西北农林科技大学。
+						交通业是国家的命脉，是国家发展的重要保证。根据十八大精神，中国建设“八横八纵”交通枢纽网，推动交通、经济发展，给同学们带来大量的就业机遇和岗位。中国一些一线二线城市为了赶上时代步伐、推进城市发展，建设地铁、高铁等现代交通方式。交通类专业的前景是灿烂辉煌的，交通类工作者是国家的必要也是必须人才。我校以培养国家实用型人才为宗旨，为实现中国伟大复兴为己任。
 					</p>
 					<br />
 					<p>
-						 建校80余年来，学校一代代师生秉承“经国本，解民生，尚科学”的办学理念和“诚朴勇毅”的校训，心怀社稷，情系苍生，承远古农神后稷之志，行当代“教民稼穑”之为，坚持走产学研紧密结......
+						石家庄市东方铁路航空中等专业学校建于2010年，是经石家庄教育局批准，具有独立颁发中等职业毕业证资格的全日制职业中专学校。学校以学历教育、技能教育综合型为特色，为国家培养具有“一技之长”“一专多能”的高学历技能人才。
 					</p>
 				</div>
 				<p style="color: #EE9900; margin-left: 500px;cursor:pointer;font-size: 16px;font-weight: bold;" @click="toSchIntroduction">更多+</p>
@@ -25,14 +26,14 @@
 					<span style="color: #EE9900; margin-left: 400px;cursor:pointer;font-size: 16px;font-weight: bold;" @click="toAcademyStyle">更多+</span>
 				</div>
 				<hr style="width: 560px;color: #CCCCCC;border: solid 1px;"/>
-				<ul style="margin-left: 25px;color: #333333;line-height: 35px;margin-top: 15px;font-size: 16px;">
+				<!-- <ul style="margin-left: 25px;color: #333333;line-height: 35px;margin-top: 15px;font-size: 16px;">
 					<li>航空学院优秀学院赴海南航空实习<span style="color: #666666;margin-left: 220px;">2019-12-09</span></li>
 					<li>航空学院优秀学院赴海南航空实习<span style="color: #666666;margin-left: 220px;">2019-12-09</span></li>
 					<li>航空学院优秀学院赴海南航空实习<span style="color: #666666;margin-left: 220px;">2019-12-09</span></li>
 					<li>航空学院优秀学院赴海南航空实习<span style="color: #666666;margin-left: 220px;">2019-12-09</span></li>
 					<li>航空学院优秀学院赴海南航空实习<span style="color: #666666;margin-left: 220px;">2019-12-09</span></li>
 					<li>航空学院优秀学院赴海南航空实习<span style="color: #666666;margin-left: 220px;">2019-12-09</span></li>
-				</ul>
+				</ul> -->
 			</div>
 			<div>
 				<div style="font-size: 24px;color: #333333;font-weight: bold;margin-bottom: 15px;">
@@ -41,6 +42,7 @@
 					<span style="color: #EE9900; margin-left: 400px;cursor:pointer;font-size: 16px;font-weight: bold;" @click="toEmploymentSecurity">更多+</span>
 				</div>
 				<hr style="width: 560px;color: #CCCCCC;border: solid 1px;"/>
+				<!-- 
 				<div>
 					<div>
 						<img src="../../../assets/images/home/6.png" alt="" style="width: 150px;margin-top: 20px;margin-left: 15px;">
@@ -69,14 +71,17 @@
 						</div>
 					</div>
 				</div>
+			 -->
 			</div>
 		</div>
+		
 		<div style="margin-top: 30px;">
 			<div style="font-size: 24px;color: #333333;font-weight: bold;margin-bottom: 15px;">
 				<span style="border-right:4px solid #EE9900;margin-right: 5px;" />
 				<span style="margin-right: 145px;">学校新闻</span>
 				<span style="color: #EE9900; margin-left: 850px;cursor:pointer;font-size: 16px;font-weight: bold;" @click="tonewsBulletin">更多+</span>
 			</div>
+			<!-- 
 			<div style="margin-top: 30px; display: flex;">
 				<div class="shlnews">
 					<img src="../../../assets/images/home/8.png" alt="">
@@ -97,17 +102,19 @@
 					
 				</div>
 			</div>
-			
+			 -->
 		</div>
+		
+		
 		<div style="background-color: #F2FAFE;margin-top: 30px;">
 			<h2 >合作单位</h2>
 			<hr />
-			<div style="margin-top: 30px; text-align: center;">
+			<!-- <div style="margin-top: 30px; text-align: center;">
 				<div class="cooperation"><img src="../../../assets/images/home/cooperation/11.png" alt=""></div>
 				<div class="cooperation"><img src="../../../assets/images/home/cooperation/12.png" alt=""></div>
 				<div class="cooperation"><img src="../../../assets/images/home/cooperation/13.png" alt=""></div>
 				<div class="cooperation"><img src="../../../assets/images/home/cooperation/14.png" alt=""></div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </template>
@@ -145,6 +152,7 @@
 		/* background-color: #000000; */
 		margin: 0 auto;
 		margin-top: 30px;
+		margin-bottom: 60px;
 	}
 	
 	#school-profile>div:nth-child(4) {
@@ -166,7 +174,7 @@
 	.horizontal-row {
 		text-align: start;
 		/* background-color: #EE9900; */
-		margin-top: 30px;
+		margin-top: 50px;
 	}
 
 	.horizontal-row>div {
@@ -175,7 +183,7 @@
 		width: 590px;
 		height: 300px;
 		margin: 0 auto;
-		color: red;
+		/* color: red; */
 
 	}
 

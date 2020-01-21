@@ -9,10 +9,10 @@
 					</div>
 					<div style="margin-top: 20px;margin-left: 15px;margin-right: 15px;">
 						<p style="font-size: 20px;color: #1A49DB;font-weight: bold;margin-bottom: 10px;">
-							艾德华
+							学校军训
 						</p>
 						<p style="font-size: 14px;color: #999999;">
-							就职于上海东方航空公司
+							整齐划一的队伍
 						</p>
 						<hr style="margin-top: 20px;border: solid 2px #eef2f1;">
 					</div>
@@ -21,10 +21,10 @@
 					<img src="../../../assets/images/academyStyle/2.png" alt="" style="height: 300px;width: 380px;">
 					<div style="margin-top: 20px;margin-left: 15px;margin-right: 15px;">
 						<p style="font-size: 20px;color: #1A49DB;font-weight: bold;margin-bottom: 10px;">
-							艾德华
+							学生作画
 						</p>
 						<p style="font-size: 14px;color: #999999;">
-							就职于上海东方航空公司
+							全心投入的背影
 						</p>
 						<hr style="margin-top: 20px;border: solid 2px #eef2f1;">
 					</div>
@@ -33,10 +33,10 @@
 					<img src="../../../assets/images/academyStyle/3.png" alt="" style="height: 300px;width: 380px;">
 					<div style="margin-top: 20px;margin-left: 15px;margin-right: 15px;">
 						<p style="font-size: 20px;color: #1A49DB;font-weight: bold;margin-bottom: 10px;">
-							艾德华
+							航空服务实训
 						</p>
 						<p style="font-size: 14px;color: #999999;">
-							就职于上海东方航空公司
+							接近真实的服务实训
 						</p>
 						<hr style="margin-top: 20px;border: solid 2px #eef2f1;">
 					</div>
@@ -49,10 +49,10 @@
 					</div>
 					<div style="margin-top: 20px;margin-left: 15px;margin-right: 15px;">
 						<p style="font-size: 20px;color: #1A49DB;font-weight: bold;margin-bottom: 10px;">
-							艾德华
+							学生宿舍
 						</p>
 						<p style="font-size: 14px;color: #999999;">
-							就职于上海东方航空公司
+							干净卫生又温馨
 						</p>
 						<hr style="margin-top: 20px;border: solid 2px #eef2f1;">
 					</div>
@@ -61,10 +61,10 @@
 					<img src="../../../assets/images/academyStyle/5.png" alt="" style="height: 300px;width: 380px;">
 					<div style="margin-top: 20px;margin-left: 15px;margin-right: 15px;">
 						<p style="font-size: 20px;color: #1A49DB;font-weight: bold;margin-bottom: 10px;">
-							艾德华
+							会计实操
 						</p>
 						<p style="font-size: 14px;color: #999999;">
-							就职于上海东方航空公司
+							朝气蓬勃的面孔
 						</p>
 						<hr style="margin-top: 20px;border: solid 2px #eef2f1;">
 					</div>
@@ -73,10 +73,10 @@
 					<img src="../../../assets/images/academyStyle/6.png" alt="" style="height: 300px;width: 380px;">
 					<div style="margin-top: 20px;margin-left: 15px;margin-right: 15px;">
 						<p style="font-size: 20px;color: #1A49DB;font-weight: bold;margin-bottom: 10px;">
-							艾德华
+							高兴就业
 						</p>
 						<p style="font-size: 14px;color: #999999;">
-							就职于上海东方航空公司
+							充满希望的笑容
 						</p>
 						<hr style="margin-top: 20px;border: solid 2px #eef2f1;">
 					</div>

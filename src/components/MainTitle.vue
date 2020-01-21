@@ -6,7 +6,7 @@
 		</div>
 		<div id="cellphone">
 			<span style="color: #1A49DB;font-size: 16px;">咨询热线</span>
-			<span style="color: #1A49DB;font-size: 30px;">400-7899-000</span>
+			<span style="color: #1A49DB;font-size: 30px;">0311-68092339</span>
 		</div>
 	</div>
 </template>
@@ -32,7 +32,7 @@
 		/* width: 100px; */
 		height: 30px;
 		line-height: 30px;
-		background-color: #0000FF;
+		/* background-color: #0000FF; */
 		color: red;
 		display: inline-block;
 		margin-left: 150px;

@@ -18,7 +18,7 @@
 			</div>
 		</div>
 		<div style="width: 1200px;margin: 0 auto;margin-bottom: 30px;">
-			<router-view></router-view>
+			<!-- <router-view></router-view> -->
 		</div>
 	</div>
 </template>
